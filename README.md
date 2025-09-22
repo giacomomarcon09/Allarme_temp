@@ -35,9 +35,9 @@ Quando la **temperatura supera una soglia preimpostata**,
   * Legge il **coil** e lo collega a una variabile BOOL (Allarm). 
 
   * Usa una struttura `TYPE RealUnion` per ricostruire il **FLOAT** a partire dai due holding register. 
-  * Espone in grafica tre elementi:
+  * Espone in grafica tre elementi: <img width="325" height="500" alt="FB" src="https://github.com/user-attachments/assets/aa388c7c-03ae-49c6-a562-16cee85f4a1c" align="right" />
 
-    * Un **bottone** per disattivare l’allarme (quando la temperatura torna sotto soglia). <img width="325" height="500" alt="FB" src="https://github.com/user-attachments/assets/aa388c7c-03ae-49c6-a562-16cee85f4a1c" align="right" />
+    * Un **bottone** per disattivare l’allarme (quando la temperatura torna sotto soglia). 
     * Una **spia visiva** che mostra lo stato dell’allarme. 
     * Uno **strumento di misura** che visualizza la temperatura in tempo reale, elaborata tramite `FB_SmoothTemp` per ridurre le fluttuazioni del sensore.
     <br clear="all">
