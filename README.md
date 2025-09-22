@@ -56,7 +56,7 @@ Arduino, come slave, espone tre variabili:
 
 2. **2 x Holding Register**
 
-   * Contengono insieme le due word necessarie per rappresentare la temperatura in formato **FLOAT (32 bit)**'.
+   * Contengono insieme le due word necessarie per rappresentare la temperatura in formato **FLOAT (32 bit)**.
 
 ---
 
