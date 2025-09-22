@@ -54,7 +54,7 @@ Arduino, come slave, espone tre variabili:
    * Tipo: BOOL
    * Stato: `1` se la temperatura ha superato la soglia e quindi l’allarme è attivo, `0` altrimenti.
 
-2. **2 Holding Register**
+2. **2 x Holding Register**
 
    * Contengono insieme le due word necessarie per rappresentare la temperatura in formato **FLOAT (32 bit)**'.
 
